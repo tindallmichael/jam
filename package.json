@@ -2,7 +2,9 @@
   "name": "jam",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "nx --version"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
