@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { WbbsbcStore } from './store/wbbsbc.store';
 
 @Component({
   selector: 'wbbsbc',
@@ -9,4 +10,8 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./wbbsbc.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class WbbsbcComponent {}
+export class WbbsbcComponent {
+  constructor(public store: WbbsbcStore) {
+    
+  }
+}

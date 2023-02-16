@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@jam/feature/wbbsbc": ["libs/feature/wbbsbc/src/index.ts"]
+      "@jam/feature/wbbsbc": ["libs/feature/wbbsbc/src/index.ts"],
+      "@jam/shared/store": ["libs/shared/store/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
